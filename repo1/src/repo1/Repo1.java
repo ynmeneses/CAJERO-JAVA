@@ -5,6 +5,8 @@
  */
 package repo1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author fvp
@@ -15,7 +17,9 @@ public class Repo1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO code appli
+        JOptionPane.showMessageDialog(null,"Hola en Github!");
+        
     }
     
 }
