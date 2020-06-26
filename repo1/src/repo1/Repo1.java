@@ -18,8 +18,12 @@ public class Repo1 {
      */
     public static void main(String[] args) {
         
-        JOptionPane.showMessageDialog(null,"Hola en Github!");
-        JOptionPane.showMessageDialog(null,"Modificado desde Github!"); //modificado por Allen Viquez
+        //JOptionPane.showMessageDialog(null,"Hola en Github!");
+        //JOptionPane.showMessageDialog(null,"Modificado desde Github!"); //modificado por Allen Viquez
+        
+        ClasePadre_Abstracta objeto = new ClaseHija_Consulta();
+        objeto.setSaldo(500);
+        objeto.Operaciones();
         
     }
     
