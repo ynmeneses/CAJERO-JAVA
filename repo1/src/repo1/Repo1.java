@@ -17,8 +17,9 @@ public class Repo1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code appli
+        
         JOptionPane.showMessageDialog(null,"Hola en Github!");
+        JOptionPane.showMessageDialog(null,"Modificado desde Github!"); //modificado por Allen Viquez
         
     }
     
