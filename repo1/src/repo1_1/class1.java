@@ -12,5 +12,6 @@ package repo1_1;
 public class class1 {
     
     // agregamos otro archivo desde Netbeans
+    JOptionPane.showMessageDialog(null,"Segundo cambio desde Github en la web");  // modificado por PANFILO desde Github
     
 }
