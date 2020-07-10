@@ -13,6 +13,7 @@ public class ClaseHija_Deposito extends ClasePadre_Abstracta {
     
     
     public void Transacciones(){
+        try{
         System.out.println("Cuanto desea depositar?");
         Deposito();
         
@@ -22,5 +23,10 @@ public class ClaseHija_Deposito extends ClasePadre_Abstracta {
         System.out.println("Depositaste en tu cuenta: " + deposito);
         System.out.println("Tu nuevo saldo en: " + getSaldo());
         System.out.println("------------------------------------");
-    }
+    }catch(Exception e){
+            System.out.println("digite numeros" + e);
+    }finally{
+            System.out.println("Transaccion procesada exitosamente");
+        }
+}
 }

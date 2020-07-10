@@ -10,11 +10,13 @@ import java.util.Scanner;
  * @author fvp
  */
 public abstract class ClasePadre_Abstracta {
+    
     protected int transacciones, retiro, deposito;
     private static int saldo;
     Scanner entrada = new Scanner(System.in);
     
     public void Operaciones(){
+        try{
         int bandera = 0;
         int seleccion =0;
         do{
@@ -52,6 +54,11 @@ public abstract class ClasePadre_Abstracta {
             }
         }while(bandera !=2 );
     
+    }catch(Exception e){
+            System.out.println("DIGITE UN VALIDOR VALIDO "+ e);
+    }finally{
+            System.out.println("Su transaccion ha sido exitosa");
+        }
     }
     
     public void Retiro(){
