@@ -7,7 +7,7 @@ package repo1;
 
 /**
  *
- * @author fvp
+ * @author jor
  */
 public class ClaseHija_Consulta extends ClasePadre_Abstracta {
     
